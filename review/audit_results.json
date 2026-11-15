@@ -1,0 +1,246 @@
+{
+  "early": {
+    "senders": 127,
+    "qualified_amount": 27836549.496264998,
+    "excluded_amount": 1805092.972278,
+    "top_five_share": 0.8291787040928325,
+    "amount_by_minute": {
+      "0": 1860.218871,
+      "1": 9731.263983,
+      "2": 3830861.87344,
+      "3": 2147.000103,
+      "4": 9962.272554,
+      "5": 1122.067,
+      "6": 511761.40661299997,
+      "7": 221203.979937,
+      "8": 31538.284,
+      "9": 390158.242835,
+      "10": 451946.768155,
+      "11": 596.879912,
+      "12": 204667.699999,
+      "13": 14866.402753000002,
+      "14": 405.86502299999995,
+      "15": 102416.93241000001,
+      "16": 148507.0,
+      "17": 3158.72742,
+      "18": 500842.21222999995,
+      "19": 5194206.892945,
+      "20": 3234348.878808,
+      "21": 18791.321443,
+      "22": 1298.8532639999999,
+      "23": 3369.04,
+      "24": 6072.327707,
+      "25": 1103.15,
+      "26": 158.97,
+      "27": 5020.572337,
+      "28": 45358.529757,
+      "29": 280.0,
+      "30": 618291.783559,
+      "31": 0.0,
+      "32": 4671.471956,
+      "33": 10012.462065,
+      "34": 24179.862797,
+      "35": 21578.981812,
+      "36": 1464724.0286980001,
+      "37": 5998132.703809,
+      "38": 7767.731399,
+      "39": 4739426.836671
+    },
+    "top_five_public_tag_categories": [
+      "MEV Bot",
+      "Market Maker"
+    ]
+  },
+  "late_freeze": {
+    "48h": {
+      "n": 8259,
+      "active": 2074,
+      "participation_pct": 25.11199903135973,
+      "history_participation_pct": 24.514475940106387,
+      "amount_diff_pct": -13.90533798314616
+    },
+    "7d": {
+      "n": 8259,
+      "active": 4042,
+      "participation_pct": 48.940549703353916,
+      "history_participation_pct": 47.42528900536661,
+      "amount_diff_pct": -14.30067671426033
+    }
+  },
+  "audit": {
+    "confirmed": 238,
+    "conflicting": 0,
+    "unresolved": 14,
+    "agreement_among_explicit_labels": 1.0,
+    "wilson_95_among_explicit": [
+      0.9841157970207982,
+      0.9999999999999999
+    ],
+    "weighted_coverage_bounds": [
+      0.9449462773886873,
+      1.0
+    ],
+    "strata": [
+      {
+        "days": "2",
+        "size": "100k+",
+        "population": 341,
+        "sampled": 28,
+        "confirmed": 28
+      },
+      {
+        "days": "2",
+        "size": "10k-100k",
+        "population": 1693,
+        "sampled": 28,
+        "confirmed": 25,
+        "unresolved": 3
+      },
+      {
+        "days": "2",
+        "size": "lt10k",
+        "population": 21129,
+        "sampled": 28,
+        "confirmed": 26,
+        "unresolved": 2
+      },
+      {
+        "days": "3-5",
+        "size": "100k+",
+        "population": 490,
+        "sampled": 28,
+        "confirmed": 27,
+        "unresolved": 1
+      },
+      {
+        "days": "3-5",
+        "size": "10k-100k",
+        "population": 1955,
+        "sampled": 28,
+        "confirmed": 26,
+        "unresolved": 2
+      },
+      {
+        "days": "3-5",
+        "size": "lt10k",
+        "population": 17002,
+        "sampled": 28,
+        "confirmed": 27,
+        "unresolved": 1
+      },
+      {
+        "days": "6+",
+        "size": "100k+",
+        "population": 687,
+        "sampled": 28,
+        "confirmed": 25,
+        "unresolved": 3
+      },
+      {
+        "days": "6+",
+        "size": "10k-100k",
+        "population": 1692,
+        "sampled": 28,
+        "unresolved": 1,
+        "confirmed": 27
+      },
+      {
+        "days": "6+",
+        "size": "lt10k",
+        "population": 5801,
+        "sampled": 28,
+        "confirmed": 27,
+        "unresolved": 1
+      }
+    ]
+  },
+  "reverse": {
+    "n": 50790,
+    "outgoing": 50790,
+    "rival_seed": 0,
+    "outside_seeds": 5481
+  },
+  "top100": {
+    "observed_prior_contracts": 13,
+    "public_name_tags": 18,
+    "incoming": 58,
+    "any_rival": 45,
+    "both_rivals": 21
+  },
+  "delay": [
+    {
+      "k": 0,
+      "wallet_role": "new",
+      "matches": 14493,
+      "p10_minutes": 1,
+      "p50_minutes": 5,
+      "p90_minutes": 672
+    },
+    {
+      "k": 1,
+      "wallet_role": "existing",
+      "matches": 31007,
+      "p10_minutes": 3,
+      "p50_minutes": 7,
+      "p90_minutes": 12
+    },
+    {
+      "k": 2,
+      "wallet_role": "existing",
+      "matches": 44366,
+      "p10_minutes": 3,
+      "p50_minutes": 7,
+      "p90_minutes": 11
+    }
+  ],
+  "coverage": [
+    {
+      "day": "2026-11-08",
+      "last_utc": "2026-11-08T23:59:59Z",
+      "first_utc": "2026-11-08T09:00:11Z",
+      "transfers": 768957
+    },
+    {
+      "day": "2026-11-09",
+      "last_utc": "2026-11-09T23:59:59Z",
+      "first_utc": "2026-11-09T00:00:11Z",
+      "transfers": 1407830
+    },
+    {
+      "day": "2026-11-10",
+      "last_utc": "2026-11-10T23:59:59Z",
+      "first_utc": "2026-11-10T00:00:11Z",
+      "transfers": 1573569
+    },
+    {
+      "day": "2026-11-11",
+      "last_utc": "2026-11-11T23:59:59Z",
+      "first_utc": "2026-11-11T00:00:11Z",
+      "transfers": 1377163
+    },
+    {
+      "day": "2026-11-12",
+      "last_utc": "2026-11-12T23:59:59Z",
+      "first_utc": "2026-11-12T00:00:11Z",
+      "transfers": 1596779
+    },
+    {
+      "day": "2026-11-13",
+      "last_utc": "2026-11-13T23:59:59Z",
+      "first_utc": "2026-11-13T00:00:11Z",
+      "transfers": 1413171
+    },
+    {
+      "day": "2026-11-14",
+      "last_utc": "2026-11-14T23:59:59Z",
+      "first_utc": "2026-11-14T00:00:11Z",
+      "transfers": 1156729
+    },
+    {
+      "day": "2026-11-15",
+      "last_utc": "2026-11-15T08:59:59Z",
+      "first_utc": "2026-11-15T00:00:11Z",
+      "transfers": 346053
+    }
+  ]
+}
